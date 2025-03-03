@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>Valkyrie Apocalypse</title>
+        <link rel="stylesheet" href="Style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Badeen+Display&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="navbar" id="navbar">
+            <ul>
+                <li><a href="Index2.html">chapitres</a></li>
+                <hr
+                    style="
+                        border: 2.5px solid #2c2c2c;
+                        margin: 0 15px;
+                        border-radius: 3px;
+                    "
+                />
+                <li><a href="Index3.html">Synopsis</a></li>
+                <hr
+                    style="
+                        border: 2.5px solid #2c2c2c;
+                        margin: 0 15px;
+                        border-radius: 3px;
+                    "
+                />
+
+                <li><a href="Index4.html">À propos...</a></li>
+            </ul>
+        </div>
+        <div class="ligne">
+            <header>
+                <div class="contenair">
+                    <h1>CKY-SCANS</h1>
+                    <img
+                        class="item"
+                        src="images/drc.jpg"
+                        alt="RDC"
+                        height="52"
+                        width="19%"
+                    />
+                </div>
+                <img
+                    src="images/WM.png"
+                    alt="Menu Hamburger"
+                    width="12%"
+                    height="60"
+                    class="menu-hamburger"
+                    id="menuHamburger"
+                    onclick="toggleNavbar()"
+                />
+                <img
+                    src="images/delete.png"
+                    alt="cancel"
+                    class="delete-icon"
+                    id="deleteIcon"
+                    width="12%"
+                    height="40"
+                />
+                <div class="conte">
+                    <div id="searchContainer">
+                        <input
+                            type="text"
+                            name="q"
+                            id="searchQuery"
+                            placeholder="Rechercher sur Google..."
+                        />
+                        <button onclick="performSearch()">Rechercher</button>
+                    </div>
+
+                    <
+                </div>
+                <hr
+                    style="
+                        border: 2px solid #2c2c2c;
+                        height: 2px;
+                        background-color: #2c2c2c;
+                        margin: 5px 16px;
+                        border-radius: 2px;
+                    "
+                />
+                <img
+                    class="image1"
+                    src="images/VA2.jpg"
+                    alt="image"
+                    width="95%"
+                    height="130"
+                />
+            </header>
+            <div class="scans-vf">
+                <p class="first-p">SCANS VF</p>
+                <img
+                    src="images/DFR2.png"
+                    alt="drapeau français"
+                    height="40"
+                    width="15%"
+                    class="dfr"
+                />
+            </div>
+            <h2>Valkyrie Apocalypse: Record Of Ragnarok</h2>
+
+            <main>
+                <div class="chapter" onclick="toggleChapter(83)">
+                    Chapitre 83
+                </div>
+                <div class="chapter" onclick="toggleChapter(84)">
+                    Chapitre 84
+                </div>
+                <div class="chapter" onclick="toggleChapter(85)">
+                    Chapitre 85
+                </div>
+                <div class="chapter" onclick="toggleChapter(86)">
+                    Chapitre 86
+                </div>
+                <div class="chapter" onclick="toggleChapter(87)">
+                    Chapitre 87
+                </div>
+                <div class="chapter" onclick="toggleChapter(88)">
+                    Chapitre 88
+                </div>
+                <div class="chapter" onclick="toggleChapter(89)">
+                    Chapitre 89
+                </div>
+                <div class="chapter" onclick="toggleChapter(90)">
+                    Chapitre 90
+                </div>
+                <div class="chapter" onclick="toggleChapter(91)">
+                    Chapitre 91
+                </div>
+                <div class="chapter" onclick="toggleChapter(91.2)">
+                    Chapitre 91.2
+                </div>
+                <div class="chapter" onclick="toggleChapter(91.5)">
+                    Chapitre 91.5
+                </div>
+                <div class="chapter" onclick="toggleChapter(91.6)">
+                    Chapitre 91.6
+                </div>
+                <div class="chapter" onclick="toggleChapter(92)">
+                    Chapitre 92
+                </div>
+                <div class="chapter" onclick="toggleChapter(93)">
+                    Chapitre 93
+                </div>
+                <div class="chapter" onclick="toggleChapter(94)">
+                    Chapitre 94
+                </div>
+                <div class="chapter" onclick="toggleChapter(95)">
+                    Chapitre 95
+                </div>
+                <div class="chapter" onclick="toggleChapter(96)">
+                    Chapitre 96
+                </div>
+                <div class="chapter" onclick="toggleChapter(97)">
+                    Chapitre 97
+                </div>
+                <div class="chapter" onclick="toggleChapter(98)">
+                    Chapitre 98
+                </div>
+
+                <!-- Ajoutez d'autres chapitres ici -->
+
+                <div id="content" class="image-container"></div>
+            </main>
+        </div>
+        <hr style="color: white; border: 2.3px solid white; margin: 0 15px" />
+        <footer style="color: white">
+            <p class="CKY-SCANS">© 2025 <strong>CKY-SCANS</strong></p>
+            <p class="facebook">
+                Suivez-moi sur :
+                <a href="https://facebook.com/ᎷᏒ. ᎶᎧᏠᎧ 悟">Facebook</a>
+            </p>
+            <p class="email">
+                E-mail :
+                <a href="mailto:chriskuyibukayaav@gmail.com">Contactez-moi</a>
+            </p>
+            <p class="apropos"><a href="Index4.html">A propos</a></p>
+        </footer>
+    </body>
+
+    <script>
+        const menuHamburger = document.getElementById("menuHamburger")
+        const deleteIcon = document.getElementById("deleteIcon")
+        const navbar = document.getElementById("navbar")
+
+        menuHamburger.addEventListener("click", () => {
+            if (navbar.style.display === "block") {
+                // Si la navbar est déjà visible, masquer la navbar
+                navbar.style.display = "none"
+                deleteIcon.style.display = "none" // Masquer l'icône de suppression
+            } else {
+                // Afficher la navbar
+                navbar.style.display = "block"
+                menuHamburger.style.display = "none" // Masquer l'icône de menu
+                deleteIcon.style.display = "block" // Afficher l'icône de suppression
+            }
+        })
+
+        deleteIcon.addEventListener("click", () => {
+            navbar.style.display = "none" // Masquer la navbar
+            deleteIcon.style.display = "none" // Masquer l'icône de suppression
+            menuHamburger.style.display = "block" // Afficher l'icône de menu
+        })
+    </script>
+
+    <script>let currentChapter = null; // Suivi du chapitre actuellement affiché
+
+function toggleChapter(chapterNumber) {
+    const contentDiv = document.getElementById('content');
+
+    // Si le chapitre actuel est le même que celui cliqué, on le masque
+    if (currentChapter === chapterNumber) {
+        contentDiv.innerHTML = ''; // Vide le contenu
+        contentDiv.style.display = 'none'; // Masque les images
+        currentChapter = null; // Réinitialise le chapitre actuel
+    } else {
+        contentDiv.innerHTML = ''; // Vide le contenu précédent
+        currentChapter = chapterNumber; // Met à jour le chapitre actuel
+
+        let imageIndex = 1; // Compteur d'images
+
+        function loadImage() {
+            const img = new Image();
+            img.src = `Images/Chapitre ${chapterNumber}/${imageIndex}.jpg`; // Chemin des images
+            img.alt = `Scan Chapitre ${chapterNumber} - Image ${imageIndex}`;
+
+            img.onload = function() {
+                const imgElement = document.createElement('img');
+                imgElement.src = img.src;
+                imgElement.alt = img.alt;
+                contentDiv.appendChild(imgElement); // Ajoute l'image si elle existe
+                imageIndex++; // Passe à l'image suivante
+                loadImage(); // Charge l'image suivante
+            };
+
+            img.onerror = function() {
+                // Quand l'image n'existe pas, on arrête le chargement
+                if (imageIndex > 1) { // Vérifie s'il y a au moins une image chargée
+                    contentDiv.style.display = 'flex'; // Affiche le conteneur
+                    contentDiv.scrollIntoView({ behavior: 'smooth' }); // Fait défiler vers le conteneur
+                }
+            };
+        }
+
+        loadImage(); // Démarre le chargement des images
+    }
+}</script>
+
+    <script>
+        function performSearch() {
+            const query = document
+                .getElementById("searchQuery")
+                .value.toLowerCase()
+            const chapters = document.querySelectorAll(".chapter")
+
+            chapters.forEach(chapter => {
+                // Supprimer le surlignage précédent
+                chapter.classList.remove("highlight")
+
+                if (
+                    chapter.textContent.toLowerCase().includes(query) &&
+                    query
+                ) {
+                    chapter.classList.add("highlight") // Ajouter le surlignage si le mot est trouvé
+                }
+            })
+        }
+    </script>
+    <script>
+        function toggleNavbar() {
+            const navbar = document.getElementById("navbar")
+            navbar.classList.toggle("show") // Ajoute ou retire la classe 'show'
+        }
+        function performSearch() {
+            const query = document.getElementById("searchQuery").value
+            const url =
+                "https://www.google.com/search?q=" + encodeURIComponent(query)
+            window.open(url, "_blank") // Ouvre dans un nouvel onglet
+        }
+    </script>
+</html>
